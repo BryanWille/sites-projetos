@@ -11,7 +11,7 @@ var msg = String(mensagem.value);
 var msgdiv = document.getElementById("divmsg");
 
 function crypt(){
-    let crypto = msg.split("");
+    let crypto = msg.split(" ");
     for (let cont = 0; crypto.length > cont; cont++){
         for(let aux = 0; cesar.length > aux; aux++){
             if(crypto[cont].toUpperCase == alpha[aux]){
