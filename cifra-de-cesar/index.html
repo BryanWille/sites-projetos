@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de César</title>
+</head>
+<body>
+    <h1>Cifra de César</h1>
+    <p>A Cifra de César é um dos mais antigos exemplos de criptografia, usada bastante pelo império romano para decodificar mensagens, que continham estratégias chaves <s>isso está certo eu pesquisei.</s></p>
+    <p>Mas bom como funciona a cifra de César? por ser uma forma elementar tem um funcionamento bem simples, mas para a epóca eficiente, na cifra de César avançamos todas as letras em 4 posições, ou seja a letra A vira a letra D, a letra B vira a letra E e por assim vai até a letra Z virar a letra C. </p>
+    <p>Abaixo está um algoritmo que eu fiz para a elaboração da cifra, onde você digita a mensagem e seleciona se quer criptografar ou descriptografar.</p>
+    <input type="text" placeholder="Digite a sua mensagem aqui" id="mensagem">
+    <input type="button" value="Criptografar" id="crypto" onclick="crypt()">
+    <input type="button" value="Descriptografar" id="uncrypt" onclick="uncrypt()">
+    <div id="divmsg"></div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
