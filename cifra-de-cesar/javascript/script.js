@@ -18,10 +18,10 @@ function crypt(){
                 crypto[cont] = cesar[aux];
             }
         }
+    }
     let criptografada;
     for(let contador = 0; crypto.length > contador; contador){
         criptografada += crypto[contador];
     }
-    msgdiv.innerHTML = `<p> ${criptografada} </p>`
-    }
+    msgdiv.innerHTML = `<p> ${criptografada} </p>`;
 }
