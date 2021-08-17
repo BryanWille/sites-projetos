@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #00BFB2;
+    height: auto;
+    min-height: 40px;
+}
+
+header p {
+    font-size: larger;
+    float: left;
+    margin: 10px 0px 10px 10px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
